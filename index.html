@@ -34,7 +34,7 @@
     
         <p>Explorez notre site pour en savoir plus sur notre équipe exceptionnelle, nos services personnalisés et nos tarifs compétitifs. Pour une expérience de lavage de voiture de luxe inégalée, choisissez Votre Nom d'Entreprise. Nous attendons avec impatience de prendre soin de votre voiture et de vous offrir un résultat à la hauteur de vos attentes.</p>
         </div>
-        <img src="/images/lambo.webp" alt="Voiture de luxe lavée à domicile" class="w-1/2 rounded-2xl">
+        <img src="/images/lambo.webp" class="w-1/2 rounded-2xl">
     </section>
     <hr>
     <div class="w-screen h-40 flex flex-col md:flex-row items-center justify-between gap-5">
@@ -84,7 +84,19 @@
         margin: 0;
         padding: 0;
     }
-
+    
+section {
+    background-image: url('images/lambo.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right 35%;
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
 a {
     text-decoration: none;
     color: inherit;
